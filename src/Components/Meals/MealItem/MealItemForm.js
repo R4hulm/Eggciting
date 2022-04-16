@@ -8,7 +8,6 @@ const MealItemForm = (props) => {
 
     const submitHandler = (event) => {
         event.preventDefault();
-        console.log("add clicked")
         const enteredAmount = amountInputRef.current.value;
         const enteredAmountNumber = +enteredAmount;
         if (

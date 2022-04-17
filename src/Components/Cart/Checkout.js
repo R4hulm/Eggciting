@@ -27,7 +27,7 @@ const Checkout = (props) => {
         const enteredNameIsValid = !isEmpty(enteredName);
         const enteredStreeteIsValid = !isEmpty(enteredStreet);
         const enteredCityIsValid = !isEmpty(enteredCity);
-        const enteredPinCodeIsValid = isPinCode(enteredPinCode);
+        const enteredPinCodeIsValid = isPinCode(enteredPinCode) && !isNaN(enteredPinCode);
 
         setformInputsValidity({
             name:enteredCityIsValid,
@@ -75,7 +75,7 @@ const Checkout = (props) => {
             <div className={pinCodeControlClasses}>
                 <label htmlFor='pincode'>Pin Code</label>
                 <input type='text' id='pincode'ref={pinCodeInputRef}/>
-                {!formInputsValidity.pinCode && <p>Please enter valid Pin Code</p>}
+                {!formInputsValidity.pinCode && <p>Please enter valid 6 digit Pin Code</p>}
             </div>
             
             <div className={classes.actions}>

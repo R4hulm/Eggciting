@@ -1,13 +1,21 @@
 .summary {
-    max-width: 15rem;
+    max-width: 30rem;
     width: 90%;
-    margin: 40% 75% 30% 20%;
-    margin-top: -10rem;
+    font-size: 1.8rem;
+    margin: 20% 75% 50% 20%;
+    margin-top: -18rem;
     position: relative;
     color: white;
+    opacity: 50%;
   }
   
-  .summary h2 {
-    font-size: 2rem;
-    margin-top: 0;
+  .summary h1 {
+    display: inline;
+    font-weight: normal;
+  }
+
+  .name-gg-style{
+    color:#FFEF00;
+    display:inline;
+    font-weight: normal;
   }

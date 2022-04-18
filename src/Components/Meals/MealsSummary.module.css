@@ -1,9 +1,11 @@
 .summary {
-    max-width: 30rem;
+    max-width: 28rem;
     width: 90%;
     font-size: 1.8rem;
-    margin: 20% 75% 50% 20%;
+    margin-left: 15%;
     margin-top: -18rem;
+    margin-bottom: 10%;
+    margin-right: 5%;
     position: relative;
     color: white;
     opacity: 50%;

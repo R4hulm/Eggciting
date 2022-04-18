@@ -4,6 +4,7 @@ import classes from "./Header.module.css";
 import HeaderImage from "../../Assets/HeaderImage.jpg";
 import MealsSummary from "../Meals/MealsSummary";
 
+
 const Header = (props) => {
     return (
         <Fragment>

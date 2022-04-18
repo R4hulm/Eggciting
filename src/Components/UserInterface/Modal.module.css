@@ -13,13 +13,29 @@
   top: 15vh;
   left: 5%;
   width: 90%;
+  max-height: 75vh;
+  overflow: auto;
   background-color: white;
   padding: 1rem;
-  border-radius: 14px;
+  border-radius: 10px;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.25);
   z-index: 30;
   animation: slide-down 300ms ease-out forwards;
 }
+
+.modal::-webkit-scrollbar {
+  width: 14px;    
+}
+.modal::-webkit-scrollbar-track {
+  border-radius: 10px;
+  padding: 5%;   
+}
+.modal::-webkit-scrollbar-thumb {
+  background-color: #eda952;   
+  border-radius: 10px;   
+  border: 10px solid transparent;    
+}
+
 
 @media (min-width: 768px) {
   .modal {

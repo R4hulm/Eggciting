@@ -1,8 +1,7 @@
 .cart-items {
     list-style: none;
-    margin: 0;
+    margin: 0% 5%;
     padding: 0;
-    max-height: 20rem;
     overflow: auto;
   }
   
@@ -12,7 +11,7 @@
     align-items: center;
     font-weight: bold;
     font-size: 1.5rem;
-    margin: 1rem 0;
+    margin: 1rem 5%;
   }
   
   .actions {
@@ -27,6 +26,7 @@
     padding: 0.5rem 2rem;
     border-radius: 25px;
     margin-left: 1rem;
+    margin-right: 5%;
   }
   
   .actions button:hover,

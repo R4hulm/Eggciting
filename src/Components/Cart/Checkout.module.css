@@ -1,5 +1,6 @@
 .form {
-    margin: 1rem 0;
+    margin-left:5% ;
+    margin-top: 5%;
     height: 19rem;
     overflow: auto;
   }
@@ -25,6 +26,7 @@
   .actions {
     display: flex;
     justify-content: flex-end;
+    margin-right:5%;
     gap: 1rem;
   }
   
